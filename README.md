@@ -105,7 +105,7 @@ https://ping.doyouok.com/ping/YOUR-API-KEY
 - **API reference:** [doyouok.com/docs/api](https://doyouok.com/docs/api)
 - **OpenAPI spec:** [doyouok.com/openapi.json](https://doyouok.com/openapi.json)
 - **LLM summary:** [doyouok.com/llms.txt](https://doyouok.com/llms.txt)
-- **Remote MCP server:** `https://doyouok.com/mcp` (Streamable HTTP, API token in the `Authorization` header; tools `register_check`, `list_checks`, `get_setup_guide`). Listed in the official MCP Registry as `com.doyouok/doyouok`.
+- **Remote MCP server:** `https://doyouok.com/mcp` (Streamable HTTP, API token in the `Authorization` header; tools `register_check`, `list_checks`, `get_setup_guide`). Listed in the official MCP Registry as `com.doyouok/doyouok`. Setup and tools: [mcp/](mcp/).
 
 ---
 

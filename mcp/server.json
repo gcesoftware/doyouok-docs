@@ -1,0 +1,44 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.doyouok/doyouok",
+  "title": "Doyouok",
+  "description": "Heartbeat checks for cron, n8n, Make, Zapier and Power Automate: alerts on missed or failed runs.",
+  "version": "1.0.1",
+  "websiteUrl": "https://doyouok.com/docs/api",
+  "repository": {
+    "url": "https://github.com/gcesoftware/doyouok-docs",
+    "source": "github",
+    "id": "1375486223",
+    "subfolder": "mcp"
+  },
+  "icons": [
+    {
+      "src": "https://doyouok.com/logo.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "590x590"
+      ]
+    },
+    {
+      "src": "https://doyouok.com/apple-touch-icon.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "180x180"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://doyouok.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "\"Bearer \" followed by your Doyouok API token (dyo_...), from doyouok.com Profile > API tokens. Free plan is enough.",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
