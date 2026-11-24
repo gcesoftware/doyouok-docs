@@ -1,5 +1,7 @@
 # Doyouok MCP server
 
+[![mcptry](https://mcptry.com/badge/com.doyouok/doyouok)](https://mcptry.com/servers/com.doyouok/doyouok)
+
 Remote MCP server (Streamable HTTP) at **`https://doyouok.com/mcp`**. It lets AI assistants and agents add a heartbeat
 check to the cron jobs and automations they build, so you are alerted when a run is missed or fails.
 
