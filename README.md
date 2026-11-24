@@ -79,17 +79,33 @@ print("Doyouok check-in successful.")
 
 ---
 
-### n8n / Zapier / Make
+### n8n / Make / Zapier / Power Automate
 
-Doyouok works with automation platforms that can make HTTP requests.
+Use the native Doyouok integration instead of a generic HTTP request. It creates the check automatically, reports success or failure with a message, and alerts you when a run is missed:
 
-Add an HTTP Request step at the end of your workflow and call your Doyouok Ping URL:
+| Platform | Integration | Setup guide |
+|---|---|---|
+| **n8n** | Verified community node: search "Doyouok" in the nodes panel | [doyouok.com/n8n-help](https://doyouok.com/n8n-help) |
+| **Make** | Approved Doyouok app | [doyouok.com/make-help](https://doyouok.com/make-help) |
+| **Zapier** | Doyouok app (invite link in the guide) | [doyouok.com/zapier-help](https://doyouok.com/zapier-help) |
+| **Power Automate** | Certified Doyouok connector | [doyouok.com/power-automate-help](https://doyouok.com/power-automate-help) |
+
+All integrations: [doyouok.com/integrations](https://doyouok.com/integrations)
+
+On any other platform that can make HTTP requests, call your Ping URL at the end of the workflow:
 
 ```text
 https://ping.doyouok.com/ping/YOUR-API-KEY
 ```
 
-This lets you monitor workflows that may otherwise fail silently.
+---
+
+## 🤖 API and AI agents
+
+- **API reference:** [doyouok.com/docs/api](https://doyouok.com/docs/api)
+- **OpenAPI spec:** [doyouok.com/openapi.json](https://doyouok.com/openapi.json)
+- **LLM summary:** [doyouok.com/llms.txt](https://doyouok.com/llms.txt)
+- **Remote MCP server:** `https://doyouok.com/mcp` (Streamable HTTP, API token in the `Authorization` header; tools `register_check`, `list_checks`, `get_setup_guide`). Listed in the official MCP Registry as `com.doyouok/doyouok`.
 
 ---
 
@@ -188,7 +204,7 @@ Existing Job
 
 For setup instructions and integration examples, visit the:
 
-👉 **[Doyouok Documentation](https://doyouok.com/Home/Docs)**
+👉 **[Doyouok Documentation](https://doyouok.com/home/docs)**
 
 ---
 
@@ -196,7 +212,7 @@ For setup instructions and integration examples, visit the:
 
 **Website:** [https://doyouok.com](https://doyouok.com)
 
-**Documentation:** [https://doyouok.com/Home/Docs](https://doyouok.com/Home/Docs)
+**Documentation:** [https://doyouok.com/home/docs](https://doyouok.com/home/docs)
 
 Create your first monitor for free:
 
